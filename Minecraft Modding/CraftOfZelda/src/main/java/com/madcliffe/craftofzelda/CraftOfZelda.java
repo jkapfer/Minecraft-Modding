@@ -43,7 +43,7 @@ public class CraftOfZelda {
 
         @Override
         public ItemStack createIcon() {
-            return new ItemStack(RegistryHandler.RUPEE.get());
+            return new ItemStack(RegistryHandler.MASTER_SWORD.get());
         }
     };
 

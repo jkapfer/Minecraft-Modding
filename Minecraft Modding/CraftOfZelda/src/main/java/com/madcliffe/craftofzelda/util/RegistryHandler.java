@@ -26,10 +26,10 @@ public class RegistryHandler {
 
     //Items
     public static final RegistryObject<Item> RUPEE = ITEMS.register("rupee", ItemBase::new);
+    public static final RegistryObject<Item> HYRULEAN_INGOT = ITEMS.register("hyrulean_ingot", ItemBase::new);
 
     //Tools
-    public static final RegistryObject<SwordItem> MASTER_SWORD = ITEMS.register("master_sword", () ->
-            new SwordItem(ModItemTier.HYRULEAN, 10, -3.0F, new Item.Properties().group(CraftOfZelda.TAB)));
+    public static final RegistryObject<SwordItem> MASTER_SWORD = ITEMS.register("master_sword", () -> new SwordItem(ModItemTier.HYRULEAN, 14, -1.8F, new Item.Properties().group(CraftOfZelda.TAB)));
 
     //Blocks
     public static final RegistryObject<Block> RUPEE_BLOCK = BLOCKS.register("rupee_block", RupeeBlock::new);

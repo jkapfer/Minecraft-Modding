@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "craftofzelda:rupee_block"
+  },
+  "result": "craftofzelda:hyrulean_ingot",
+  "experience": 5.0,
+  "cookingtime": 200
+}

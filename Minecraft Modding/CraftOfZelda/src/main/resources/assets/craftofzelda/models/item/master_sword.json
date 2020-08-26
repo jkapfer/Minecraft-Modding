@@ -1,3 +1,6 @@
 {
-
+  "parent" : "item/handheld",
+  "textures" : {
+    "layer0" : "craftofzelda:items/master_sword"
+  }
 }
