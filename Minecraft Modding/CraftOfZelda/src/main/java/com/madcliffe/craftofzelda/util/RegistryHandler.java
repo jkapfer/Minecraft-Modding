@@ -1,7 +1,10 @@
 package com.madcliffe.craftofzelda.util;
 
 import com.madcliffe.craftofzelda.CraftOfZelda;
+import com.madcliffe.craftofzelda.blocks.BlockItemBase;
+import com.madcliffe.craftofzelda.blocks.RupeeBlock;
 import com.madcliffe.craftofzelda.items.ItemBase;
+import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -11,12 +14,20 @@ import net.minecraftforge.registries.ForgeRegistries;
 public class RegistryHandler {
 
     public static final DeferredRegister<Item> ITEMS = new DeferredRegister<>(ForgeRegistries.ITEMS, CraftOfZelda.MOD_ID);
+    public static final DeferredRegister<Block> BLOCKS = new DeferredRegister<>(ForgeRegistries.BLOCKS, CraftOfZelda.MOD_ID);
 
     public static void init() {
+
         ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
+        BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
     }
 
-    // Items
-    public static final RegistryObject<Item> RUBY = ITEMS.register("ruby", ItemBase::new);
+    //Items
+    public static final RegistryObject<Item> RUPEE = ITEMS.register("rupee", ItemBase::new);
 
+    //Blocks
+    public static final RegistryObject<Block> RUPEE_BLOCK = BLOCKS.register("rupee_block", RupeeBlock::new);
+
+    //Block Items
+    public static final RegistryObject<Item> RUPEE_BLOCK_ITEM = ITEMS.register("rupee_block", () -> new BlockItemBase(RUPEE_BLOCK.get()));
 }

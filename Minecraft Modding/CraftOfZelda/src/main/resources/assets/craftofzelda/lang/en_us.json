@@ -1,3 +1,5 @@
 {
-  "item.craftofzelda.ruby": "Ruby"
+  "item.craftofzelda.rupee" : "Rupee",
+  "block.craftofzelda.rupee_block" : "Block of Rupee",
+  "itemGroup.craftOfZeldaTab" : "Craft of Zelda"
 }
