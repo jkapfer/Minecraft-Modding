@@ -8,8 +8,8 @@ import java.util.function.Supplier;
 
 public enum ModItemTier implements IItemTier{
 
-    HYRULEAN(3, 2000, 10.0F, 3.0F, 20, () -> {
-        return Ingredient.fromItems(RegistryHandler.HYRULEAN_INGOT.get());
+    HYLIAN(3, 2000, 10.0F, 3.0F, 20, () -> {
+        return Ingredient.fromItems(RegistryHandler.HYLIAN_INGOT.get());
     });
 
     private final int harvestLevel;

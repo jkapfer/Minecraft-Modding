@@ -3,7 +3,7 @@
   "ingredient": {
     "item": "craftofzelda:rupee_block"
   },
-  "result": "craftofzelda:hyrulean_ingot",
+  "result": "craftofzelda:hylian_ingot",
   "experience": 5.0,
   "cookingtime": 200
 }

@@ -1,6 +1,6 @@
 {
   "parent" : "item/generated",
   "textures" : {
-    "layer0" : "craftofzelda:items/hyrulean_ingot"
+    "layer0" : "craftofzelda:items/hylian_ingot"
   }
 }
