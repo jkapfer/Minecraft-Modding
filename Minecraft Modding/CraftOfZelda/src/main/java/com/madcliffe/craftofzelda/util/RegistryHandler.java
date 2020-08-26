@@ -6,10 +6,12 @@ import com.madcliffe.craftofzelda.blocks.RupeeBlock;
 import com.madcliffe.craftofzelda.items.ItemBase;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
+import net.minecraft.item.SwordItem;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
+import com.madcliffe.craftofzelda.tools.ModItemTier;
 
 public class RegistryHandler {
 
@@ -24,6 +26,10 @@ public class RegistryHandler {
 
     //Items
     public static final RegistryObject<Item> RUPEE = ITEMS.register("rupee", ItemBase::new);
+
+    //Tools
+    public static final RegistryObject<SwordItem> MASTER_SWORD = ITEMS.register("master_sword", () ->
+            new SwordItem(ModItemTier.HYRULEAN, 10, -3.0F, new Item.Properties().group(CraftOfZelda.TAB)));
 
     //Blocks
     public static final RegistryObject<Block> RUPEE_BLOCK = BLOCKS.register("rupee_block", RupeeBlock::new);
