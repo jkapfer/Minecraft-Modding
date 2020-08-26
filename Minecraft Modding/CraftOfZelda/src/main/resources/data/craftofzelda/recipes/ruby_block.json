@@ -3,12 +3,16 @@
   "pattern":
   [
     "xxx",
-    "xxx",
+    "xrx",
     "xxx"
   ],
   "key":
   {
     "x":
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    "r":
     {
       "item": "craftofzelda:rupee"
     }
