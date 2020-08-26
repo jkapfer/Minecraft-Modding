@@ -1,4 +1,4 @@
-package com.madcliffe.firstmod.items;
+package com.madcliffe.craftofzelda.items;
 
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;

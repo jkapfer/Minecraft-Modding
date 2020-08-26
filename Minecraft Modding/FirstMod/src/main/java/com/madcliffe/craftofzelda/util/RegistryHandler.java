@@ -1,7 +1,7 @@
-package com.madcliffe.firstmod.util;
+package com.madcliffe.craftofzelda.util;
 
-import com.madcliffe.firstmod.FirstMod;
-import com.madcliffe.firstmod.items.ItemBase;
+import com.madcliffe.craftofzelda.CraftOfZelda;
+import com.madcliffe.craftofzelda.items.ItemBase;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -10,7 +10,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 public class RegistryHandler {
 
-    public static final DeferredRegister<Item> ITEMS = new DeferredRegister<>(ForgeRegistries.ITEMS, FirstMod.MOD_ID);
+    public static final DeferredRegister<Item> ITEMS = new DeferredRegister<>(ForgeRegistries.ITEMS, CraftOfZelda.MOD_ID);
 
     public static void init() {
         ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
