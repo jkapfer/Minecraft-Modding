@@ -2,9 +2,9 @@
   "type": "minecraft:crafting_shaped",
   "pattern":
   [
-    "xxx",
+    "bxb",
     "xrx",
-    "xxx"
+    "bxb"
   ],
   "key":
   {
@@ -15,6 +15,10 @@
     "r":
     {
       "item": "craftofzelda:rupee"
+    },
+    "b":
+    {
+      "item": "minecraft:gold_block"
     }
   },
   "result":
