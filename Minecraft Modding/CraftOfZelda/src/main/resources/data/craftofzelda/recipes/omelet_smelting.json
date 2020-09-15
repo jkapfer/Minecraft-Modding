@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minecraft:egg"
+  },
+  "result": "craftofzelda:omelet",
+  "experience": 5.0,
+  "cookingtime": 160
+}

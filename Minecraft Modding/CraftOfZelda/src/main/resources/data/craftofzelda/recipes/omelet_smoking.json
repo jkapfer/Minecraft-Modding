@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "minecraft:egg"
+  },
+  "result": "craftofzelda:omelet",
+  "experience": 5.0,
+  "cookingtime": 80
+}
