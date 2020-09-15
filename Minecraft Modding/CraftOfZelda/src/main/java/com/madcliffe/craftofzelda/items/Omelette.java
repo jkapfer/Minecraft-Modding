@@ -6,14 +6,14 @@ import net.minecraft.item.Item;
 import net.minecraft.potion.EffectInstance;
 import net.minecraft.potion.Effects;
 
-public class Omelet extends Item {
+public class Omelette extends Item {
 
-    public Omelet() {
+    public Omelette() {
         super(new Item.Properties()
                 .group(CraftOfZelda.TAB)
                 .food(new Food.Builder()
                         .hunger(6)
-                        .saturation(2.2f)
+                        .saturation(1)
                         .effect(()->new EffectInstance(Effects.INSTANT_HEALTH, 1,1),1)
                         .effect(()->new EffectInstance(Effects.STRENGTH, 1200,0),1)
                         .setAlwaysEdible()

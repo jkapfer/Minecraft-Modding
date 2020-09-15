@@ -3,7 +3,7 @@
   "ingredient": {
     "item": "minecraft:egg"
   },
-  "result": "craftofzelda:omelet",
+  "result": "craftofzelda:omelette",
   "experience": 5.0,
   "cookingtime": 80
 }
