@@ -13,7 +13,7 @@ import org.apache.logging.log4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod("craftofzelda")
-public class CraftOfZelda {
+public class    CraftOfZelda {
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();
     public static final String MOD_ID = "craftofzelda";

@@ -13,6 +13,7 @@ public class RupeeBlock extends Block {
                 .sound(SoundType.METAL)
                 .harvestLevel(2)
                 .harvestTool(ToolType.PICKAXE)
+                
         );
     }
 }
